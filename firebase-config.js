@@ -20,4 +20,4 @@ const db = getFirestore(app);
 const provider = new GoogleAuthProvider();
 
 // Export Firebase instances
-export { auth, db, provider };
+export { app, auth, db, provider };
